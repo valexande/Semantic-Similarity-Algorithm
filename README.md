@@ -10,3 +10,9 @@ a semantic similarity metric that takes into consideration the similarity of DBp
 the crowdsource defined weights from ConceptNet. We could say that our algorithm is in the field of Semantic Mathcing Algorithms.
 
 Example:
+          coffee IsA: stimulant, beverage, liquid, drink
+          coffee AtLocation: mug, office, desk, caf, kitchen
+          coffee RelatedTo: cappuccino, iced_coffee, irish_coffee, turkish_coffee, brazil, plant,           caffeine
+          coffee UsedFor: refill, wake_up, pleasure
+          
+The properties when given another word apart from coffee might be more, similarly the entities in each property
