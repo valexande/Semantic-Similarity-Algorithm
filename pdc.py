@@ -1,8 +1,8 @@
-from DBpedia_Wikipedia import *
+from ontologyFile.webHelp.dbpWiki import get_comment_boxes
 from nltk.corpus import wordnet as wn
 
 
-class prop_dist_comm():
+class distComm():
 
     def Remove(self, duplicate):
         final = []
